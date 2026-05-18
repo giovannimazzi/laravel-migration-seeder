@@ -13,3 +13,8 @@
 body {
     font-family: "Share Tech Mono", monospace;
 }
+
+.train-table {
+    max-height: 500px;
+    overflow-y: auto;
+}
