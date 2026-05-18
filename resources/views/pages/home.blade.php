@@ -46,7 +46,7 @@
                             <td>{{ $train->carriages_number }}</td>
 
                             <td>
-                                @if (!$train->is_cancelled)
+                                @if (!$train->is_cancelled && $train->departure_date <= today())
                                     @if ($train->is_on_time)
                                         <span class="badge bg-success">In orario</span>
                                     @else
