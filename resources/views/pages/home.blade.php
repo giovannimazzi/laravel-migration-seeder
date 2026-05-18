@@ -5,5 +5,10 @@
 @section('content')
     <div class="container py-4">
         ORARI
+        <ul>
+            @foreach ($trains as $train)
+                <li>{{$train}}</li>
+            @endforeach
+        </ul>
     </div>
 @endsection
