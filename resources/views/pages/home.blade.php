@@ -4,7 +4,7 @@
 
 @section('content')
     <div class="container py-4">
-        <h2>Treni in partenza dal {{today()->format('d/m/Y')}}</h2>
+        <h2 class="text-light">Treni in partenza dal {{today()->format('d/m/Y')}}</h2>
         <div class="table-responsive train-table">
 
             <table class="table table-striped table-hover align-middle">

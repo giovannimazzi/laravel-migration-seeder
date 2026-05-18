@@ -28,7 +28,7 @@
 
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
-<body class="min-vh-100 d-flex flex-column">
+<body class="min-vh-100 d-flex flex-column bg-dark">
 
     @include('partials.header')
 
